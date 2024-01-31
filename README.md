@@ -51,49 +51,90 @@ Alteryx Workflow – Midterm Team Project – Food Inspection Facility Data
 
 DDL Azure
 
+
 SET ANSI_NULLS ON
+
 GO
+
 SET QUOTED_IDENTIFIER ON
+
 GO
+
 CREATE TABLE [manyareddy].[foodfacility](
+
     [BusinessId] [varchar](9) NULL,
+    
     [Name] [varchar](70) NULL,
+    
     [Address] [varchar](32) NULL,
+    
     [City] [varchar](17) NULL,
+    
     [State] [varchar](2) NULL,
+    
     [ZipCode] [varchar](15) NULL,
+    
     [PhoneNumber] [varchar](12) NULL,
+    
     [InspectionId] [varchar](9) NULL,
+    
     [Date] [datetime] NULL,
+    
     [InspectionType] [varchar](9) NULL,
+    
     [ViolationCodes] [varchar](4) NULL,
+    
     [ViolationDescriptions] [varchar](1000) NULL,
+    
     [Location] [varchar](100) NULL,
+    
     [DI_WorkflowFileName] [varchar](100) NULL,
+    
     [DI_CreatedDate] [datetime] NULL,
+    
     [DI_Workflow_ProcessID] [varchar](100) NULL
+    
 ) ON [PRIMARY]
+
 GO
 
 
 DDL script for MySQL
+
 'CREATE TABLE `stg_foodfacility` (
+
   `BusinessId` varchar(9) DEFAULT NULL,
+  
   `Name` varchar(70) DEFAULT NULL,
+  
   `Address` varchar(32) DEFAULT NULL,
+  
   `City` varchar(17) DEFAULT NULL,
+  
   `State` varchar(2) DEFAULT NULL,
+  
   `ZipCode` varchar(15) DEFAULT NULL,
+  
   `PhoneNumber` varchar(12) DEFAULT NULL,
+  
   `InspectionId` varchar(9) DEFAULT NULL,
+  
   `Date` datetime DEFAULT NULL,
+  
   `InspectionType` varchar(9) DEFAULT NULL,
+  
   `ViolationCodes` varchar(4) DEFAULT NULL,
+  
   `ViolationDescriptions` varchar(1000) DEFAULT NULL,
+  
   `Location` varchar(100) DEFAULT NULL,
+  
   `DI_CreatedDate` datetime DEFAULT NULL,
+  
   `DI_Workflow_ProcessID` varchar(100) DEFAULT NULL
+  
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci'
+
 
 
 
@@ -127,4 +168,4 @@ Power Bi visualisations and Tablaeu visualisations
     
 
 
-![image](https://github.com/manya-reddy/food_facility_inspection/assets/113812925/fc606135-6358-4c68-8155-bc42fbd6b329)
+
