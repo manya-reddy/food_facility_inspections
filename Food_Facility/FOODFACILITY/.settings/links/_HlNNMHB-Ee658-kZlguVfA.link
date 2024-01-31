@@ -1,0 +1,51 @@
+{
+  "itemId" : "_HlNNMHB-Ee658-kZlguVfA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_wUMcQHBmEe658-kZlguVfA",
+    "parameterList" : [ {
+      "id" : "_wUpvQXBmEe658-kZlguVfA",
+      "name" : "azuredbconn_Server"
+    }, {
+      "id" : "_wUpvQnBmEe658-kZlguVfA",
+      "name" : "azuredbconn_AdditionalParams"
+    }, {
+      "id" : "_wUpvQ3BmEe658-kZlguVfA",
+      "name" : "azuredbconn_Port"
+    }, {
+      "id" : "_wUpvRHBmEe658-kZlguVfA",
+      "name" : "azuredbconn_Schema"
+    }, {
+      "id" : "_wUpvRXBmEe658-kZlguVfA",
+      "name" : "azuredbconn_Login"
+    }, {
+      "id" : "_wUpvRnBmEe658-kZlguVfA",
+      "name" : "azuredbconn_Password"
+    }, {
+      "id" : "_wUpvR3BmEe658-kZlguVfA",
+      "name" : "azuredbconn_Database"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_LEUsUHBmEe658-kZlguVfA",
+    "parameterList" : [ {
+      "id" : "_LFqwJHBmEe658-kZlguVfA",
+      "name" : "mysqldbconn_Login"
+    }, {
+      "id" : "_LFqwJnBmEe658-kZlguVfA",
+      "name" : "mysqldbconn_Database"
+    }, {
+      "id" : "_LFqwIXBmEe658-kZlguVfA",
+      "name" : "mysqldbconn_Server"
+    }, {
+      "id" : "_LFqwJXBmEe658-kZlguVfA",
+      "name" : "mysqldbconn_Password"
+    }, {
+      "id" : "_LFqwInBmEe658-kZlguVfA",
+      "name" : "mysqldbconn_AdditionalParams"
+    }, {
+      "id" : "_LFqwI3BmEe658-kZlguVfA",
+      "name" : "mysqldbconn_Port"
+    } ]
+  } ]
+}

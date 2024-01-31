@@ -1,0 +1,29 @@
+{
+  "itemId" : "_NOUesHBmEe658-kZlguVfA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_wUMcQHBmEe658-kZlguVfA",
+    "parameterList" : [ {
+      "id" : "_wUpvQXBmEe658-kZlguVfA",
+      "name" : "azuredbconn_Server"
+    }, {
+      "id" : "_wUpvQnBmEe658-kZlguVfA",
+      "name" : "azuredbconn_AdditionalParams"
+    }, {
+      "id" : "_wUpvQ3BmEe658-kZlguVfA",
+      "name" : "azuredbconn_Port"
+    }, {
+      "id" : "_wUpvRHBmEe658-kZlguVfA",
+      "name" : "azuredbconn_Schema"
+    }, {
+      "id" : "_wUpvRXBmEe658-kZlguVfA",
+      "name" : "azuredbconn_Login"
+    }, {
+      "id" : "_wUpvRnBmEe658-kZlguVfA",
+      "name" : "azuredbconn_Password"
+    }, {
+      "id" : "_wUpvR3BmEe658-kZlguVfA",
+      "name" : "azuredbconn_Database"
+    } ]
+  } ]
+}

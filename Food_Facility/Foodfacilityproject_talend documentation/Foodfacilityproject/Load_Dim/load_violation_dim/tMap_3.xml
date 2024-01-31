@@ -1,0 +1,90 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<externalNode i18n.job.component.parameters="Component Parameters:" i18n.job.properties="Properties" i18n.job.values="Values" i18n.mapper.table.for="Mapper table for " i18n.mapper.table.properties="Mapper table Properties" i18n.job.name="Name" i18n.tmap.matching.mode="Matching-mode" i18n.mapper.table.isminimized="isMinimized" i18n.tmap.isreject="isReject" i18n.tmap.isrejectinnnerjoin="isRejectInnerJoin" i18n.tmap.isinnerjoin="isInnerJoin" i18n.tmap.expressionfilter="expressionFilter" i18n.mapper.table.metadata.entries="Metadata Table Entries" i18n.job.type="Type" i18n.mapper.table.expression="Expression" i18n.tmap.isnullable="isNullable" i18n.tmap.constraint.entries="Constraint Table Entries" name="tMap_3" preview="pictures/_FRzu8HDFEe6LeuEC4uZVcQ-tMap_3-PREVIEW.bmp">
+  <parameters>
+    <column name="tStatCatcher Statistics">false</column>
+    <column name="Mapping links display as:">AUTO</column>
+    <column name="Temp data directory path:"></column>
+    <column name="Max buffer size (nb of rows):">2000000</column>
+    <column name="Ignore trailing zeros for BigDecimal">true</column>
+    <column name="Show Information">false</column>
+    <column name="Comment"><![CDATA[]]></column>
+    <column name="Use an existing validation rule">false</column>
+  </parameters>
+  <mapperTable type="input">
+    <table name="out1" matching-mode="UNIQUE_MATCH" lookup-mode="LOAD_ONCE" isMinimized="false" isReject="false" isRejectInnerJoin="false" isInnerJoin="false" isPersistent="false" expressionFilter="null" activateExpressionFilter="false" activateCondensedTool="false" activateColumnNameFilter="false" columnNameFilter="null">
+      <metadataTableEntries>
+        <entry name="address_sk" type="Integer" expression="" isNullable="true"/>
+        <entry name="Latitude" type="Double" expression="" isNullable="true"/>
+        <entry name="Longitude" type="Double" expression="" isNullable="true"/>
+        <entry name="id" type="Integer" expression="" isNullable="true"/>
+      </metadataTableEntries>
+    </table>
+    <table name="out2" matching-mode="UNIQUE_MATCH" lookup-mode="LOAD_ONCE" isMinimized="false" isReject="false" isRejectInnerJoin="false" isInnerJoin="false" isPersistent="false" expressionFilter="null" activateExpressionFilter="false" activateCondensedTool="false" activateColumnNameFilter="false" columnNameFilter="null">
+      <metadataTableEntries>
+        <entry name="Address" type="String" expression="" isNullable="true"/>
+        <entry name="City" type="String" expression="" isNullable="true"/>
+        <entry name="State" type="String" expression="" isNullable="true"/>
+        <entry name="ZipCode" type="String" expression="" isNullable="true"/>
+        <entry name="id" type="Integer" expression="out1.id " isNullable="true"/>
+        <entry name="Location" type="String" expression="" isNullable="true"/>
+      </metadataTableEntries>
+    </table>
+  </mapperTable>
+  <mapperTable type="output">
+    <table name="outfinal" isMinimized="false" isReject="false" isRejectInnerJoin="false" isInnerJoin="false" isPersistent="false" expressionFilter="null" activateExpressionFilter="false" activateCondensedTool="false" activateColumnNameFilter="false" columnNameFilter="null">
+      <metadataTableEntries>
+        <entry name="address_sk" type="Integer" expression="out1.address_sk " isNullable="true"/>
+        <entry name="Address" type="String" expression="out2.Address " isNullable="true"/>
+        <entry name="City" type="String" expression="out2.City " isNullable="true"/>
+        <entry name="State" type="String" expression="out2.State " isNullable="true"/>
+        <entry name="ZipCode" type="String" expression="out2.ZipCode " isNullable="true"/>
+        <entry name="Location" type="String" expression="out2.Location " isNullable="true"/>
+        <entry name="Latitude" type="Double" expression="out1.Latitude " isNullable="true"/>
+        <entry name="Longitude" type="Double" expression="out1.Longitude " isNullable="true"/>
+        <entry name="DI_CreatedDate" type="java.util.Date" expression=" Var.var2 " isNullable="true"/>
+        <entry name="DI_Workflow_Filename" type="String" expression="Var.var3 " isNullable="true"/>
+        <entry name="DI_Workflow_ProcessID" type="String" expression="Var.var1 " isNullable="true"/>
+      </metadataTableEntries>
+    </table>
+    <table name="azuredb" isMinimized="false" isReject="false" isRejectInnerJoin="false" isInnerJoin="false" isPersistent="false" expressionFilter="null" activateExpressionFilter="false" activateCondensedTool="false" activateColumnNameFilter="false" columnNameFilter="null">
+      <metadataTableEntries>
+        <entry name="address_sk" type="Integer" expression="out1.address_sk  " isNullable="true"/>
+        <entry name="Address" type="String" expression="out2.Address  " isNullable="true"/>
+        <entry name="City" type="String" expression="out2.City  " isNullable="true"/>
+        <entry name="State" type="String" expression="out2.State  " isNullable="true"/>
+        <entry name="ZipCode" type="String" expression="out2.ZipCode  " isNullable="true"/>
+        <entry name="Location" type="String" expression="out2.Location  " isNullable="true"/>
+        <entry name="Latitude" type="Double" expression="out1.Latitude  " isNullable="true"/>
+        <entry name="Longitude" type="Double" expression="out1.Longitude  " isNullable="true"/>
+        <entry name="DI_CreatedDate" type="java.util.Date" expression=" Var.var2  " isNullable="true"/>
+        <entry name="DI_Workflow_Filename" type="String" expression="Var.var3  " isNullable="true"/>
+        <entry name="DI_Workflow_ProcessID" type="String" expression="Var.var1  " isNullable="true"/>
+      </metadataTableEntries>
+    </table>
+    <table name="logconsole" isMinimized="false" isReject="false" isRejectInnerJoin="false" isInnerJoin="false" isPersistent="false" expressionFilter="null" activateExpressionFilter="false" activateCondensedTool="false" activateColumnNameFilter="false" columnNameFilter="null">
+      <metadataTableEntries>
+        <entry name="address_sk" type="Integer" expression="out1.address_sk  " isNullable="true"/>
+        <entry name="Address" type="String" expression="out2.Address  " isNullable="true"/>
+        <entry name="City" type="String" expression="out2.City  " isNullable="true"/>
+        <entry name="State" type="String" expression="out2.State  " isNullable="true"/>
+        <entry name="ZipCode" type="String" expression="out2.ZipCode  " isNullable="true"/>
+        <entry name="Location" type="String" expression="out2.Location  " isNullable="true"/>
+        <entry name="Latitude" type="Double" expression="out1.Latitude  " isNullable="true"/>
+        <entry name="Longitude" type="Double" expression="out1.Longitude  " isNullable="true"/>
+        <entry name="DI_CreatedDate" type="java.util.Date" expression=" Var.var2  " isNullable="true"/>
+        <entry name="DI_Workflow_Filename" type="String" expression="Var.var3  " isNullable="true"/>
+        <entry name="DI_Workflow_ProcessID" type="String" expression="Var.var1  " isNullable="true"/>
+      </metadataTableEntries>
+    </table>
+  </mapperTable>
+  <mapperTable type="var">
+    <table name="Var" isMinimized="false" isReject="false" isRejectInnerJoin="false" isInnerJoin="false" isPersistent="false" expressionFilter="null" activateExpressionFilter="false" activateCondensedTool="false" activateColumnNameFilter="false" columnNameFilter="null">
+      <metadataTableEntries>
+        <entry name="var1" type="String" expression="pid" isNullable="false"/>
+        <entry name="var2" type="java.util.Date" expression="TalendDate.getCurrentDate() " isNullable="false"/>
+        <entry name="var3" type="String" expression="context.filename" isNullable="false"/>
+      </metadataTableEntries>
+    </table>
+  </mapperTable>
+</externalNode>

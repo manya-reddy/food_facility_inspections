@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_3kzBgG1EEe6evvmqRq1a_w" label="Foodfacility" description="" language="java" technicalLabel="FOODFACILITY" local="true" author="_3kzBgW1EEe6evvmqRq1a_w" productVersion="Talend Cloud Data Fabric-8.0.1.20230913_0925-patch" type="DQ" itemsRelationVersion="1.3">
+    <migrationTask xmi:id="_3lgMIG1EEe6evvmqRq1a_w" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_3kzBgW1EEe6evvmqRq1a_w" login="jukantivenkat.m@northeastern.edu" password="D41D8CD98F00B204E9800998ECF8427E"/>
+  <TalendProperties:User xmi:id="_pVeBgHBkEe6cF850Ul_ldw" login="machiraju.s@northeastern.edu" password="D41D8CD98F00B204E9800998ECF8427E"/>
+</xmi:XMI>

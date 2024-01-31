@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Default" xmi:id="_LFqwIHBmEe658-kZlguVfA">
+    <contextParameter comment="" name="mysqldbconn_Server" prompt="mysqldbconn_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost" xmi:id="_LFqwIXBmEe658-kZlguVfA"/>
+    <contextParameter comment="" name="mysqldbconn_AdditionalParams" prompt="mysqldbconn_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_LFqwInBmEe658-kZlguVfA"/>
+    <contextParameter comment="" name="mysqldbconn_Port" prompt="mysqldbconn_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306" xmi:id="_LFqwI3BmEe658-kZlguVfA"/>
+    <contextParameter comment="" name="mysqldbconn_Login" prompt="mysqldbconn_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root" xmi:id="_LFqwJHBmEe658-kZlguVfA"/>
+    <contextParameter comment="" name="mysqldbconn_Password" prompt="mysqldbconn_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:I0BgJHRcexb9Zim78tMZCltqLDDYTtwPrLzOZDozIze668we" xmi:id="_LFqwJXBmEe658-kZlguVfA"/>
+    <contextParameter comment="" name="mysqldbconn_Database" prompt="mysqldbconn_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="foodfacility" xmi:id="_LFqwJnBmEe658-kZlguVfA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="development" xmi:id="_LFqwJ3BmEe658-kZlguVfA">
+    <contextParameter comment="" name="mysqldbconn_Server" prompt="mysqldbconn_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost" xmi:id="_LFqwKHBmEe658-kZlguVfA"/>
+    <contextParameter comment="" name="mysqldbconn_AdditionalParams" prompt="mysqldbconn_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_LFqwKXBmEe658-kZlguVfA"/>
+    <contextParameter comment="" name="mysqldbconn_Port" prompt="mysqldbconn_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306" xmi:id="_LFqwKnBmEe658-kZlguVfA"/>
+    <contextParameter comment="" name="mysqldbconn_Login" prompt="mysqldbconn_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root" xmi:id="_LFqwK3BmEe658-kZlguVfA"/>
+    <contextParameter comment="" name="mysqldbconn_Password" prompt="mysqldbconn_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:sX07iaQ4ylHfqTpIuWyWeVq8iOBGOdc5h7rAqHsvntV2Ahvk" xmi:id="_LFqwLHBmEe658-kZlguVfA"/>
+    <contextParameter comment="" name="mysqldbconn_Database" prompt="mysqldbconn_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="foodfacility" xmi:id="_LFqwLXBmEe658-kZlguVfA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="production" xmi:id="_LFqwLnBmEe658-kZlguVfA">
+    <contextParameter comment="" name="mysqldbconn_Server" prompt="mysqldbconn_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost" xmi:id="_LFqwL3BmEe658-kZlguVfA"/>
+    <contextParameter comment="" name="mysqldbconn_AdditionalParams" prompt="mysqldbconn_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_LFqwMHBmEe658-kZlguVfA"/>
+    <contextParameter comment="" name="mysqldbconn_Port" prompt="mysqldbconn_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306" xmi:id="_LFqwMXBmEe658-kZlguVfA"/>
+    <contextParameter comment="" name="mysqldbconn_Login" prompt="mysqldbconn_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root" xmi:id="_LFqwMnBmEe658-kZlguVfA"/>
+    <contextParameter comment="" name="mysqldbconn_Password" prompt="mysqldbconn_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:uNxbigvmZFicXIxY6T+CXHQX1G/S9QqfxCWnaNAwZU/doGB4" xmi:id="_LFqwM3BmEe658-kZlguVfA"/>
+    <contextParameter comment="" name="mysqldbconn_Database" prompt="mysqldbconn_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="foodfacility" xmi:id="_LFqwNHBmEe658-kZlguVfA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="testing" xmi:id="_LFqwNXBmEe658-kZlguVfA">
+    <contextParameter comment="" name="mysqldbconn_Server" prompt="mysqldbconn_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost" xmi:id="_LFqwNnBmEe658-kZlguVfA"/>
+    <contextParameter comment="" name="mysqldbconn_AdditionalParams" prompt="mysqldbconn_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_LFqwN3BmEe658-kZlguVfA"/>
+    <contextParameter comment="" name="mysqldbconn_Port" prompt="mysqldbconn_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306" xmi:id="_LFqwOHBmEe658-kZlguVfA"/>
+    <contextParameter comment="" name="mysqldbconn_Login" prompt="mysqldbconn_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root" xmi:id="_LFqwOXBmEe658-kZlguVfA"/>
+    <contextParameter comment="" name="mysqldbconn_Password" prompt="mysqldbconn_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:pr7hQ1qxkNeq9+fAKUoVGWNF6MtE95MGrJOwu7GH36QgqOZm" xmi:id="_LFqwOnBmEe658-kZlguVfA"/>
+    <contextParameter comment="" name="mysqldbconn_Database" prompt="mysqldbconn_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="foodfacility" xmi:id="_LFqwO3BmEe658-kZlguVfA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_09840370-1406-4620-9bf5-69cec6f5eac0"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OowT3xpmkeLxNhfAhqDVcm9K7yxZhnBJYMpuFsvKjSxxKOzkL3uCma6010lBLk3/4MbKJ9SPS5Jz&#13;
+8zAKR78PJw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9bdf8acd-a0b7-4811-a5b4-df098c9a8b37"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>DyyR5F2Ez9gghkL5aZWMxB8VlAhKeZFYEbDA3p53ksF3HJpFCRW6/DJNb26JtaE7J6C3TCcgW9gV&#13;
+f/0nfc311Q==</DigestValue></Reference></SignedInfo><SignatureValue>VGj+pX2hSTNBz+Y/qaOcro66RE0Nj0MiRKfy+M4Jrcj3x6xJQ/ZVbiawE0Qy0Av6YE9XKeQfXB9E&#13;
++NyXC9aHcXFgGhm8/acTyi0v0z4ZUjUPDETGJj+FkS6HA8yGUamG8/YfX03ly8jXoZNL79zd724u&#13;
+0ZnvYfrUUf+Fg7a6vxG0QbMIbGBI5m1Fe7Jy9Fk/XsBkioTY52p3QqnnSoCe4c8EH1COtdcwIgn+&#13;
+9DDpCm1IPFG0lU6ghAdyGBKKBqYeoCvL/8RPgHPVEdudI8HKJaWFAvze0LdrK1Ud7XwkGhciuPML&#13;
+/eZD2TBG31sSo+MVjfPin99gCGQiM9l6G5Aduw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9bdf8acd-a0b7-4811-a5b4-df098c9a8b37" Target="#_09840370-1406-4620-9bf5-69cec6f5eac0"><Timestamp>2023-10-21 23:04:23</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
