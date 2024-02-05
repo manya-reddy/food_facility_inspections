@@ -151,7 +151,7 @@ ER Diagram and Physical Model
 Deliverable 4 –
 
 Power Bi visualisations and Tablaeu visualisations
-    
+    https://app.powerbi.com/groups/me/reports/3b190648-3d39-4cbb-b814-4fdf739cae18/ReportSection?ctid=a8eec281-aaa3-4dae-ac9b-9a398b9215e7&experience=power-bi
 
  <img width="452" alt="image" src="https://github.com/manya-reddy/food_facility_inspection/assets/113812925/0a60bdd5-6af8-4ccc-9bde-97c5a7a35ec5">
 <img width="452" alt="image" src="https://github.com/manya-reddy/food_facility_inspection/assets/113812925/d8223e62-b98c-4399-8afc-89d0f3574990">
